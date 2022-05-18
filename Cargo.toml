@@ -1,0 +1,7 @@
+[package]
+name = "l1x-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+l1x-node = { branch = "stable", git = "https://github.com/sudip-blocksone/l1x-node" }
